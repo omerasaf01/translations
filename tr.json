@@ -52,7 +52,7 @@
             "edit_identity": "Kullanıcı görünümünü düzenle",
             "create_category": "Kategori oluştur",
             "mark_unread": "Okunmadı olarak işaretle",
-            "make_owner": "Grup sahipliğini ver",
+            "make_owner": "Grup sahipliğini devret",
             "report_message": "Mesajı Bildir",
             "report_user": "Kullanıcıyı Bildir",
             "report_server": "Sunucuyu Bildir"
@@ -122,7 +122,7 @@
                 },
                 "misc": {
                     "spoiler_attachment": "Spoiler",
-                    "jump_present": "Günümüze dön",
+                    "jump_present": "Şimdiye dön",
                     "viewing_old": "Eski mesajları görüntülüyorsun",
                     "failed_load": "Mesaj yüklenemedi.",
                     "no_sending": "Bu kanalda mesaj gönderme izniniz yok.",
@@ -131,7 +131,7 @@
                     "sent_file": "Bir ek gönderildi",
                     "sent_multiple_files": "Birden fazla ek gönderildi",
                     "jump_beginning": "Başlangıca geri dön",
-                    "new_messages": "{{time_ago}} zamanından beri yeni mesajlar",
+                    "new_messages": "{{time_ago}} den beri yeni mesajlar",
                     "load_file": "Dosyayı yükle",
                     "timed_out": "{{time}} zaman aşımına uğradınız.",
                     "not_loaded": "Mesaj yüklenemedi, görüntülemek için tıklayın"
@@ -205,7 +205,7 @@
             "categories": {
                 "user_settings": "Kullanıcı Ayarları",
                 "client_settings": "İstemci Ayarları",
-                "danger_zone": "Tehlike alanı"
+                "danger_zone": "Tehlikeli alan"
             },
             "pages": {
                 "account": {
@@ -219,7 +219,7 @@
                     },
                     "unique_id": "Bu, hesabınız için benzersiz bir kullanıcı tanımlayıcısı.",
                     "2fa": {
-                        "title": "Çift Faktörlü Doğrulama",
+                        "title": "İki Aşamalı Doğrulama",
                         "description": "Hesabınızda 2AD'yı etkinleştirerek ekstra bir güvenlik katmanı ekleyin.",
                         "add_auth": "Kimlik Doğrulayıcı Ekle",
                         "remove_auth": "Kimlik Doğrulayıcıyı Kaldır",
@@ -234,7 +234,7 @@
                 "sessions": {
                     "title": "Oturumlar",
                     "this_device": "Bu Cihaz",
-                    "created": "{{time_ago}} önce oluşturuldu",
+                    "created": "{{time_ago}} oluşturuldu",
                     "active_sessions": "Aktif Oturumlar",
                     "logout": "Diğer tüm oturumlardan çıkış yapın"
                 },
@@ -567,9 +567,9 @@
                     "confirm_ban_reason": "Yasaklama sebebi",
                     "confirm_kick": "{{name}} adlı kullanıcıyı atmak istediğinizden emin misiniz?",
                     "confirm_ban": "{{name}} adlı kullanıcıyı banlamak üzeresiniz",
-                    "unfriend_user": "{{name}} arkadaşlıktan çıkar?",
+                    "unfriend_user": "{{name}} adlı kullanıcı arkadaşlıktan çıkarılsın mı?",
                     "unfriend_user_long": "Onları tekrar ekleyene kadar onlarla tekrar konuşamayabilirsiniz.",
-                    "block_user": "{{name}} engellensin mi?",
+                    "block_user": "{{name}} adlı kullanıcı engellensin mi?",
                     "block_user_long": "{{name}} adlı kullanıcıyı engellemek istediğinizden emin misiniz? Ayrıca arkadaş listenizden de kaldırılacaktır.",
                     "silent_leave": "Sessizce Ayrıl",
                     "members_not_notified": "Diğer üyeler bilgilendirilmeyecek"
@@ -580,7 +580,7 @@
                         "email": "E-postanı değiştir",
                         "password": "Şifreni değiştir"
                     },
-                    "failed": "Değiştirilemedi!"
+                    "failed": "Değiştirme işlemi başarısız oldu!"
                 },
                 "actions": {
                     "ok": "Tamam",
@@ -650,7 +650,7 @@
                     "no_reason": "Sebep belirtilmedi / başka sebep",
                     "content_reason": {
                         "Illegal": "İçerik bir veya daha fazla yasayı çiğniyor",
-                        "Malware": "Bu, kötü amaçlı yazılımdır",
+                        "Malware": "Bu, kötü amaçlı bir yazılımdır",
                         "SpamAbuse": "Bu, spam veya platformun kötüye kullanımıdır",
                         "PromotesHarm": "İçerik başkalarına veya kendine zarar vermeyi teşvik ediyor",
                         "Harassment": "Bu başka bir kullanıcıyı hedef alan taciz veya kötüye kullanımdır"
